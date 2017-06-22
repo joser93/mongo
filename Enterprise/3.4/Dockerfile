@@ -68,4 +68,4 @@ RUN ln -s usr/local/bin/docker-entrypoint.sh /entrypoint.sh # backwards compat
 ENTRYPOINT ["docker-entrypoint.sh"]
 
 EXPOSE 27017
-CMD ["mongod", "-f", "/etc/mongod.conf"]
+CMD ["mongod"]
